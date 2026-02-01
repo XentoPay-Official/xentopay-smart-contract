@@ -44,3 +44,36 @@ https://bscscan.com/address/0xfb2782baae94c5d999b9173f0559c5efebf99d93#code
 ---
 
 ## Folder Structure
+
+---
+
+## Development & Verification
+- **Compiler Version:** `v0.8.20+commit.a1b79de6`  
+- **EVM Version:** Default  
+- **Optimization:** Enabled (200 runs)  
+- **Verification Mode:** Standard JSON Input  
+- **Libraries Used:**  
+  - @openzeppelin/contracts/token/ERC20/ERC20.sol  
+  - @openzeppelin/contracts/access/Ownable.sol  
+
+Full verification details available in: `/docs/verification.txt`
+
+---
+
+## Official Links
+🌐 Website: https://xentopay.com  
+📄 Whitepaper: https://xentopay.com/white-paper  
+📱 Telegram: https://t.me/xentopay  
+🐦 Twitter: https://twitter.com/xentopay  
+
+---
+
+## Security Notice
+Admins will **NEVER** DM you first.  
+Always verify links and contract addresses from official channels only.  
+Never share your private keys or seed phrase with anyone.
+
+---
+
+## License
+This project is licensed under the **MIT License**.
