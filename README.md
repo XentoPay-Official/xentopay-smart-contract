@@ -5,63 +5,58 @@ Official smart contract repository for **XentoPay (XTPY)** — a next‑generati
 ---
 
 ## 🔹 Overview
+
 XentoPay (XTPY) powers a global Web3 payment ecosystem with real‑world utility, merchant tools, subscription billing, and upcoming staking features.
 
 This repository contains:
+
 - Smart contract source code  
-- Deployment configuration  
+- Deployment configuration & verification details  
 - Audit files (when available)  
-- BscScan verification details  
 - Security guidelines  
+- Integration references for wallets, DEXs, and payment gateways  
 
 ---
 
 ## 🔹 Contract Information
-**Network:** BNB Smart Chain  
-**Standard:** BEP‑20  
+
+**Network:** BNB Smart Chain (BSC Mainnet)  
+**Standard:** BEP‑20 (ERC‑20 compatible)  
+**Name:** Xentopay  
+**Symbol:** XTPY  
+**Decimals:** 18  
+**Max Total Supply:** 1,000,000,786 XTPY  
+
 **Contract Address:** `0xfb2782baae94c5D999B9173F0559c5efeBF99d93`  
-**Status:** Deployed & awaiting BscScan verification  
+**Status:** ✅ Deployed & Verified on BscScan  
+
+**BscScan Token Page:**  
+https://bscscan.com/token/0xfb2782baae94c5d999b9173f0559c5efebf99d93  
+
+**BscScan Contract Code:**  
+https://bscscan.com/address/0xfb2782baae94c5d999b9173f0559c5efebf99d93#code  
 
 ---
 
 ## 🔹 Features
-- Decentralized & secure  
-- Low‑cost global payments  
-- Merchant gateway integration  
-- Subscription billing support  
-- Staking (Coming Soon)  
-- Fully transparent open‑source code  
+
+- Decentralized & non‑custodial  
+- Low‑cost global payments on BNB Smart Chain  
+- ERC‑20 / BEP‑20 compatible  
+- Fixed max supply (1,000,000,786 XTPY)  
+- OpenZeppelin‑based, audited‑grade standard implementation  
+- Ownership retained for ecosystem upgrades (no hidden mint / tax logic)  
 
 ---
 
 ## 🔹 Folder Structure
-/contracts  
-  XentoPay.sol  
 
-/audit  
-  audit-report.pdf (optional)  
+```text
+/contracts
+  XentoPay.sol        # Main BEP‑20 token contract (Xentopay / XTPY)
 
-/deployment  
-  deploy.js or hardhat config  
+/docs
+  verification.txt    # BscScan verification settings & metadata
 
-/docs  
-  verification.txt  
-
----
-
-## 🔹 Official Links
-🌐 Website: https://xentopay.com  
-📄 Whitepaper: https://xentopay.com/white-paper  
-📢 Telegram: https://t.me/xentopay  
-🐦 Twitter: https://twitter.com/xentopay  
-
----
-
-## 🔹 Security Notice
-Admins will **NEVER** DM you first.  
-Never share your seed phrase, private key, or wallet access with anyone.
-
----
-
-## 🔹 License
-This project is licensed under the **MIT License**.
+/README.md            # Project overview, links, and contract info
+/LICENSE              # MIT License
