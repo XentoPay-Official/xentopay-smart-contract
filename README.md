@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://xentopay.com/wp-content/uploads/2026/01/cropped-xentopay-logo.png">
+  <img src="[https://xentopay.com/wp-content/uploads/2026/01/xentopay-cover-banner.png]">
 </p>
 
 <h1 align="center">XentoPay (XTPY)</h1>
