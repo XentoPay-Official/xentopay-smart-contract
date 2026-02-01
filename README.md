@@ -1,26 +1,20 @@
-# XentoPay (XTPY) — Smart Contract
+# XentoPay (XTPY)
 
-Official smart contract repository for **XentoPay (XTPY)** — a next‑generation decentralized payment token designed for fast, secure, and borderless global transactions.
-
----
-
-## 🔹 Overview
-
-XentoPay (XTPY) powers a global Web3 payment ecosystem with real‑world utility, merchant tools, subscription billing, and upcoming staking features.
+## Overview
+XentoPay (XTPY) is a next‑generation decentralized payment token designed for fast, secure, and borderless global transactions.  
+The ecosystem includes merchant tools, subscription billing, and future staking utilities.
 
 This repository contains:
-
 - Smart contract source code  
-- Deployment configuration & verification details  
-- Audit files (when available)  
+- Deployment & verification details  
+- Audit references  
 - Security guidelines  
-- Integration references for wallets, DEXs, and payment gateways  
+- Integration documentation  
 
 ---
 
-## 🔹 Contract Information
-
-**Network:** BNB Smart Chain (BSC Mainnet)  
+## Contract Information
+**Network:** BNB Smart Chain (Mainnet)  
 **Standard:** BEP‑20 (ERC‑20 compatible)  
 **Name:** Xentopay  
 **Symbol:** XTPY  
@@ -38,25 +32,15 @@ https://bscscan.com/address/0xfb2782baae94c5d999b9173f0559c5efebf99d93#code
 
 ---
 
-## 🔹 Features
-
+## Features
 - Decentralized & non‑custodial  
-- Low‑cost global payments on BNB Smart Chain  
+- Low‑cost global payments  
 - ERC‑20 / BEP‑20 compatible  
 - Fixed max supply (1,000,000,786 XTPY)  
-- OpenZeppelin‑based, audited‑grade standard implementation  
-- Ownership retained for ecosystem upgrades (no hidden mint / tax logic)  
+- OpenZeppelin‑based secure implementation  
+- No tax, no blacklist, no hidden minting  
+- Ownership retained for ecosystem upgrades  
 
 ---
 
-## 🔹 Folder Structure
-
-```text
-/contracts
-  XentoPay.sol        # Main BEP‑20 token contract (Xentopay / XTPY)
-
-/docs
-  verification.txt    # BscScan verification settings & metadata
-
-/README.md            # Project overview, links, and contract info
-/LICENSE              # MIT License
+## Folder Structure
