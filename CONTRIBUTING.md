@@ -84,7 +84,7 @@ For discussions, questions, or proposals:
 
 - GitHub Issues  
 - Official Telegram: https://t.me/xentopay  
-- Email: sinfo@xentopay.com  
+- Email: info@xentopay.com  
 
 ---
 
