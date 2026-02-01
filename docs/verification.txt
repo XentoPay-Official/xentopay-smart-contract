@@ -1,19 +1,37 @@
 XentoPay (XTPY) — Smart Contract Verification Details
+=====================================================
 
-Network: BNB Smart Chain
-Standard: BEP-20
-Contract Address: 0xfb2782baae94c5D999B9173F0559c5efeBF99d93
-Compiler Version: v0.8.x
-Optimization: Enabled (200 runs)
+Network:
+- BNB Smart Chain (Mainnet)
 
-Files Included:
-- XentoPay.sol
-- Constructor arguments (if any)
-- Metadata hash
-- ABI
+Token Information:
+- Name: Xentopay
+- Symbol: XTPY
+- Decimals: 18
+- Max Total Supply: 1,000,000,786 XTPY
+- Contract Address: 0xfb2782baae94c5D999B9173F0559c5efeBF99d93
+
+Compiler Settings:
+- Compiler Version: v0.8.20+commit.a1b79de6
+- EVM Version: Default
+- Optimization: Enabled
+- Optimization Runs: 200
+- Verification Mode: Standard JSON Input
+
+Contract Source:
+- File: contracts/XentoPay.sol
+- Contract Name: Xentopay
+- Inheritance:
+  - ERC20 (OpenZeppelin)
+  - Ownable (OpenZeppelin)
+
+Libraries Used:
+- @openzeppelin/contracts/token/ERC20/ERC20.sol
+- @openzeppelin/contracts/access/Ownable.sol
 
 Verification Status:
-Pending manual verification on BscScan.
+- Successfully Verified on BscScan
+- Verified Source: https://bscscan.com/address/0xfb2782baae94c5d999b9173f0559c5efebf99d93#code
 
 Notes:
-This file is used for transparency and audit purposes. It contains all the required information for contract verification and public review.
+- No tax, no blacklist
