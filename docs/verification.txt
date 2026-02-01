@@ -1,0 +1,19 @@
+XentoPay (XTPY) — Smart Contract Verification Details
+
+Network: BNB Smart Chain
+Standard: BEP-20
+Contract Address: 0xfb2782baae94c5D999B9173F0559c5efeBF99d93
+Compiler Version: v0.8.x
+Optimization: Enabled (200 runs)
+
+Files Included:
+- XentoPay.sol
+- Constructor arguments (if any)
+- Metadata hash
+- ABI
+
+Verification Status:
+Pending manual verification on BscScan.
+
+Notes:
+This file is used for transparency and audit purposes. It contains all the required information for contract verification and public review.
