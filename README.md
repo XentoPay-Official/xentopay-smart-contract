@@ -1,79 +1,117 @@
-# XentoPay (XTPY)
+<p align="center">
+  <img src="https://xentopay.com/assets/logo.png" width="120" alt="XentoPay Logo">
+</p>
 
-## Overview
-XentoPay (XTPY) is a next‑generation decentralized payment token designed for fast, secure, and borderless global transactions.  
-The ecosystem includes merchant tools, subscription billing, and future staking utilities.
+<h1 align="center">XentoPay (XTPY)</h1>
+<p align="center"><strong>Decentralized Global Payment Ecosystem</strong></p>
 
-This repository contains:
-- Smart contract source code  
-- Deployment & verification details  
-- Audit references  
-- Security guidelines  
-- Integration documentation  
+<p align="center">
+  Fast • Secure • Borderless • Web3 Native
+</p>
 
 ---
 
-## Contract Information
+## 🌍 About XentoPay
+
+XentoPay (XTPY) is a next‑generation decentralized payment ecosystem designed to power global, borderless, real‑time digital transactions.  
+Our mission is simple:
+
+**Enable anyone, anywhere, to send and receive value instantly — without banks, borders, or limitations.**
+
+The XentoPay ecosystem includes:
+
+- 🔹 BEP‑20 token (XTPY)  
+- 🔹 Merchant payment tools  
+- 🔹 Subscription billing  
+- 🔹 Web3 checkout APIs  
+- 🔹 Future staking & rewards  
+- 🔹 Cross‑chain expansion roadmap  
+
+---
+
+## 🔐 Official Smart Contract
+
 **Network:** BNB Smart Chain (Mainnet)  
-**Standard:** BEP‑20 (ERC‑20 compatible)  
-**Name:** Xentopay  
+**Token Name:** Xentopay  
 **Symbol:** XTPY  
 **Decimals:** 18  
-**Max Total Supply:** 1,000,000,786 XTPY  
+**Max Supply:** 1,000,000,786 XTPY  
 
-**Contract Address:** `0xfb2782baae94c5D999B9173F0559c5efeBF99d93`  
-**Status:** ✅ Deployed & Verified on BscScan  
+**Contract Address:**  
+`0xfb2782baae94c5D999B9173F0559c5efeBF99d93`
 
-**BscScan Token Page:**  
-https://bscscan.com/token/0xfb2782baae94c5d999b9173f0559c5efebf99d93  
-
-**BscScan Contract Code:**  
-https://bscscan.com/address/0xfb2782baae94c5d999b9173f0559c5efebf99d93#code  
+**Verified on BscScan:**  
+https://bscscan.com/token/0xfb2782baae94c5d999b9173f0559c5efebf99d93
 
 ---
 
-## Features
-- Decentralized & non‑custodial  
-- Low‑cost global payments  
-- ERC‑20 / BEP‑20 compatible  
-- Fixed max supply (1,000,000,786 XTPY)  
-- OpenZeppelin‑based secure implementation  
-- No tax, no blacklist, no hidden minting  
-- Ownership retained for ecosystem upgrades  
+## 🧩 Repositories
+
+### 🔹 Smart Contract  
+Core BEP‑20 implementation using OpenZeppelin standards.  
+→ `xentopay-smart-contract`
+
+### 🔹 Documentation  
+Technical docs, verification files, audit notes, and security policies.  
+→ `xentopay-docs` *(coming soon)*
+
+### 🔹 SDK & Integrations  
+Developer tools for integrating XTPY into apps, websites, and merchant systems.  
+→ `xentopay-sdk` *(coming soon)*
 
 ---
 
-## Folder Structure
+## 🛡 Security & Transparency
+
+XentoPay follows strict security practices:
+
+- ✔ OpenZeppelin‑based contract  
+- ✔ Fixed supply  
+- ✔ No tax, no blacklist, no hidden minting  
+- ✔ No upgradeable proxy  
+- ✔ Public verification files  
+- ✔ Responsible disclosure policy  
+
+Security documents:
+
+- `SECURITY.md`  
+- `AUDIT-NOTES.md`  
+- `CONTRIBUTING.md`  
+- `CODE_OF_CONDUCT.md`
 
 ---
 
-## Development & Verification
-- **Compiler Version:** `v0.8.20+commit.a1b79de6`  
-- **EVM Version:** Default  
-- **Optimization:** Enabled (200 runs)  
-- **Verification Mode:** Standard JSON Input  
-- **Libraries Used:**  
-  - @openzeppelin/contracts/token/ERC20/ERC20.sol  
-  - @openzeppelin/contracts/access/Ownable.sol  
+## 🌐 Official Links
 
-Full verification details available in: `/docs/verification.txt`
-
----
-
-## Official Links
-🌐 Website: https://xentopay.com  
-📄 Whitepaper: https://xentopay.com/white-paper  
-📱 Telegram: https://t.me/xentopay  
-🐦 Twitter: https://twitter.com/xentopay  
+| Platform | Link |
+|---------|------|
+| 🌍 Website | https://xentopay.com |
+| 📄 Whitepaper | https://xentopay.com/white-paper |
+| 🐦 Twitter | https://twitter.com/xentopay |
+| 💬 Telegram | https://t.me/xentopay |
+| 🎮 Discord | https://discord.gg/5qs9wdJd |
+| ✉ Email | info@xentopay.com |
 
 ---
 
-## Security Notice
-Admins will **NEVER** DM you first.  
-Always verify links and contract addresses from official channels only.  
-Never share your private keys or seed phrase with anyone.
+## 🚀 Vision
+
+XentoPay aims to become the **global standard for decentralized payments**, enabling:
+
+- Instant cross‑border transfers  
+- Merchant adoption at scale  
+- Web3‑native commerce  
+- Real‑world utility for millions of users  
+
+We believe the future of payments is:
+
+**Open. Borderless. Decentralized.**
 
 ---
 
-## License
-This project is licensed under the **MIT License**.
+## 🤝 Join the Ecosystem
+
+Developers, merchants, investors, and community members —  
+you are invited to build the future of global payments with us.
+
+Let’s shape the next era of Web3 finance together.
